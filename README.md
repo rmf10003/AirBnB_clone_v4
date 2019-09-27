@@ -217,7 +217,8 @@ github repo
 * Kimberly Wong, [kjowong](https://github.com/kjowong) | [@kjowong](https://twitter.com/kjowong) | [kjowong@gmail.com](kjowong@gmail.com)
 * Carrie Ybay, [hicarrie](https://github.com/hicarrie) | [@hicarrie_](https://twitter.com/hicarrie_)
 * Jared Heck, [jarehec](https://github.com/jarehec) | [@jarehec](https://twitter.com/jarehec)
-
+* Anthony Le, [HausCloud](https://github.com/HausCloud) | [@HausCloud](https://twitter.com/HausCloud)
+* Rory Fahy, [rmf10003](https://github.com/rmf10003) | [@rory_chillmore](https://twitter.com/rory_chillmore)
 ## License
 
 MIT License

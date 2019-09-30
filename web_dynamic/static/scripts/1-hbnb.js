@@ -1,15 +1,25 @@
 #!/usr/bin/node
 
-let myObj = {}
+let len;
+let i = 1;
+const myObj = {};
 $(function () {
   $('input:checkbox').change(
     function () {
       if ($(this).is(':checked')) {
-	myObj[($(this).attr("data-name"))] = $(this).attr("data-id")
+        myObj[($(this).attr('data-name'))] = $(this).attr('data-id');
       } else {
-	delete myObj[$(this).attr("data-name")]
+        delete myObj[$(this).attr('data-name')];
       }
-      console.log(myObj)
-    })
+      len = Object.keys(myObj).length;
+      $('.amenitiesandbeyond').empty();
+      for (const dName in myObj) {
+        if (len === 1 || i === len) {
+	  $('.amenitiesandbeyond').append(dName);
+        } else {
+	  $('.amenitiesandbeyond').append(dName + ', ');
+        }
+        i++;
+      }
+    });
 });
-$('div h4').text(
